@@ -58,7 +58,7 @@ const Navbar = () => {
           <Button variant="ghost" className="text-gray-300 hover:text-white">
             Login
           </Button>
-          <Link to="https://codescandy.com/" target="_blank">
+          <Link to="#!">
             <Button className="bg-crypto-purple hover:bg-crypto-dark-purple text-white w-full">Buy Now</Button>
           </Link>
         </div>
@@ -103,7 +103,7 @@ const Navbar = () => {
                 <Button variant="ghost" className="text-gray-300 hover:text-white w-full justify-start">
                   Login
                 </Button>
-                <Link to="https://codescandy.com/" target="_blank">
+                <Link to="#!">
                   <Button className="bg-crypto-purple hover:bg-crypto-dark-purple text-white w-full">Buy Now</Button>
                 </Link>
               </li>
