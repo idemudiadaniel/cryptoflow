@@ -21,7 +21,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4 flex justify-between items-center">
         <div className="flex items-center">
           <h1 className="text-2xl font-bold text-white">
-            Crypto<span className="text-crypto-purple">Flow</span>
+            DeFi<span className="text-crypto-purple">Gate</span>
           </h1>
         </div>
 
@@ -38,13 +38,8 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a href="#testimonials" className="text-gray-300 hover:text-white transition-colors">
-              Testimonials
-            </a>
-          </li>
-          <li>
-            <a href="#pricing" className="text-gray-300 hover:text-white transition-colors">
-              Pricing
+            <a href="#UseCases" className="text-gray-300 hover:text-white transition-colors">
+              UseCases
             </a>
           </li>
           <li>
@@ -85,13 +80,8 @@ const Navbar = () => {
                 </a>
               </li>
               <li>
-                <a href="#testimonials" className="text-gray-300 hover:text-white transition-colors block py-2" onClick={() => setIsMobileMenuOpen(false)}>
-                  Testimonials
-                </a>
-              </li>
-              <li>
-                <a href="#pricing" className="text-gray-300 hover:text-white transition-colors block py-2" onClick={() => setIsMobileMenuOpen(false)}>
-                  Pricing
+                <a href="#UseCases" className="text-gray-300 hover:text-white transition-colors block py-2" onClick={() => setIsMobileMenuOpen(false)}>
+                  UseCases
                 </a>
               </li>
               <li>
@@ -104,7 +94,7 @@ const Navbar = () => {
                   Login
                 </Button>
                 <Link to="#!">
-                  <Button className="bg-crypto-purple hover:bg-crypto-dark-purple text-white w-full">Buy Now</Button>
+                  <Button className="bg-crypto-purple hover:bg-crypto-dark-purple text-white w-full">Launch App</Button>
                 </Link>
               </li>
             </ul>

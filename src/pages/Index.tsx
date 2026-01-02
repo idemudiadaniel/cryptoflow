@@ -4,8 +4,7 @@ import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
 import Features from '@/components/Features';
 import HowItWorks from '@/components/HowItWorks';
-import Testimonials from '@/components/Testimonials';
-import Pricing from '@/components/Pricing';
+import UseCases from '@/components/UseCases';
 import FAQ from '@/components/FAQ';
 import CTA from '@/components/CTA';
 import Footer from '@/components/Footer';
@@ -18,7 +17,7 @@ const Index = () => {
 
   // Set page title
   useEffect(() => {
-    document.title = "CryptoFlow | Modern Cryptocurrency Trading";
+    document.title = "DeFiGate | Decentralized Financial Gateway";
   }, []);
   
   return (
@@ -27,8 +26,7 @@ const Index = () => {
       <Hero />
       <Features />
       <HowItWorks />
-      <Testimonials />
-      <Pricing />
+      <UseCases />
       <FAQ />
       <CTA />
       <Footer />

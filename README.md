@@ -1,16 +1,16 @@
-# CryptoFlow – One Page Template
+# DeFiGate – One Page Template
 #### Preview
 
- - [Demo](https://themewagon.github.io/cryptoflow/)
+ - [Demo](https://themewagon.github.io/DeFiGate/)
 
 #### Download
- - [Download from ThemeWagon](https://themewagon.com/themes/cryptoflow/)
+ - [Download from ThemeWagon](https://themewagon.com/themes/DeFiGate/)
 
 ## Getting Started
 
 1. Clone Repository
 ```
-git clone https://github.com/themewagon/cryptoflow.git
+git clone https://github.com/themewagon/DeFiGate.git
 ```
 2. Install Dependencies
 ```
